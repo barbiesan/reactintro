@@ -38,7 +38,7 @@ function App(props) {
             <Nav brand="Kekambas React" loggedIn={loggedIn} logout={logout}/>
             <div className='container'>
                 {message ? <AlertMessage message={message} category={category} flashMessage={flashMessage} /> : null}
-                
+            
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/register' element={<Register flashMessage={flashMessage} />} />

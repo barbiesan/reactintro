@@ -6,12 +6,11 @@ export default function PostCard(props) {
     return (
         <div className="card">
             <div className="card-body">
-                <Link to={`/blog/${post.id}`}>
-                    <h3 className="card-title">{post.title}</h3>
-                </Link>
-                <h4 className="card-subtitle mb-2 text-muted">By: {post.id}</h4>
-         
-            </div>
-        </div>
+        Link to={`/blog/${post.id}`}>
+         <h3 className="card-title">{post.title}</h3>
+     </Link>
+        <h4 className="card-subtitle mb-2 text-muted">By: {post.id}</h4>
+    </div>
+    </div>
     )
 }
